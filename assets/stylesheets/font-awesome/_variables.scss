@@ -37,7 +37,7 @@ $fa-sizes: (
 ) !default;
 
 $fa-li-width              : 2em !default;
-$fa-li-margin             : $fa-li-width * fa-divide(5, 4) !default;
+$fa-li-margin             : calc($fa-li-width * fa-divide(5, 4)) !default;
 
 $fa-pull-margin           : .3em !default;
 
