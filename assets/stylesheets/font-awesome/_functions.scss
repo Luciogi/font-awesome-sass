@@ -1,5 +1,6 @@
 // functions
 // --------------------------
+@use "variables" as *;
 
 // fa-content: convenience function used to set content property
 @function fa-content($fa-var) {
